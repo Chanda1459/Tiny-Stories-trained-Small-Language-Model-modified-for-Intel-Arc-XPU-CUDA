@@ -1,0 +1,45 @@
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training logs
+runs/
+logs/
+wandb/
+
+# Dataset files
+train.bin
+tinystories_data/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+
+
+# Large datasets
+tinystories_data/
+train.bin
+validation.bin
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
